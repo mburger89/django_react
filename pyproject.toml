@@ -1,0 +1,8 @@
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+executionEnvironments = [{ 'root' = 'backend' }]
+exclude = ["**/node_modules", "**/__pycache__"]
+defineConstant = { DEBUG = true }
+analysis = { diagnosticMode = "off", typeCheckingMode = "off" }
