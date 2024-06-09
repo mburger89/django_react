@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 # CORS Whitelist
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+     'http://localhost:3000',
 ]
 
 # Application definition
